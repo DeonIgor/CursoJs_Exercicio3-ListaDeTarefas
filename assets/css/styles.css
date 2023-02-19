@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: rgb(15, 110, 140);
+    --secondary-color: rgb(10, 80, 100);
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+.delete-button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.5em;
+    padding: 5px 10px;
+    margin-left: 6px;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    transition: 200ms;
+}
+
+.tarefas-list {
+    list-style: square;
+    list-style-position: outside;
+    margin-top: 30px;
+}
+
+.tarefa-item {
+    font-size: 1.2em;
+}
+
+.tarefas-input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.tarefas-button {    
+    font-size: 1.2em;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 8px 10px;
+    margin-left: 6px;
+}
